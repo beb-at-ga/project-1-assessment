@@ -5,7 +5,31 @@ body {
     text-align: center;
 }
 
-header {}
+#sum {
+    font-size: 100px;
+}
 
-main {}
+.positive {
+    color: black;
+}
 
+.negative {
+    color: red;
+}
+
+button, input {
+    font-size: 25px;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: grey;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: grey; 
+}
